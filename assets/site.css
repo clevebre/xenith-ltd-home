@@ -112,11 +112,15 @@ article.archived ul,article.archived ol{padding-left:1.3em}article.archived li{m
 article.archived .table{overflow-x:auto;margin:1em 0}article.archived table{border-collapse:collapse;min-width:100%;font-size:15px}article.archived th,article.archived td{border:1px solid var(--line);padding:6px 10px;text-align:left;vertical-align:top;hyphens:auto}
 @media (max-width:420px){article.archived table{font-size:14px}article.archived th,article.archived td{padding:5px 6px}}
 article.arrival{font-family:var(--head);font-size:clamp(18px,2.2vw,21px);line-height:1.6;margin-top:26px;padding-left:20px;border-left:2px solid var(--a)}article.arrival p{margin:0 0 .9em}article.arrival blockquote{border:0;padding:0;margin:0}
+article.room{font-size:16.5px;line-height:1.65;margin:6px 0 14px;padding-left:20px;border-left:2px solid var(--line)}article.room p{margin:0 0 .7em}
 h1.piece-title{font-size:clamp(28px,4.4vw,44px);line-height:1.15;max-width:22em}
 figure.plate{margin:22px 0 28px;max-width:560px}figure.plate img{width:100%;height:auto;border-radius:12px;border:1px solid var(--line);display:block}
 aside.record-box,aside.beside{max-width:var(--read);margin:34px 0 0;padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
 aside.record-box article.record{font-size:15px;line-height:1.55}aside.record-box article.record p{margin:0 0 .2em}
 aside.beside ul{margin:.3em 0 0;padding-left:1.2em;font-size:15.5px}
-ul.pieces{list-style:none;margin:10px 0 28px;padding:0;max-width:var(--read)}ul.pieces li{padding:10px 0;border-bottom:1px solid var(--line)}
+ul.pieces{list-style:none;margin:10px 0 28px;padding:0;max-width:var(--read)}ul.pieces li{padding:10px 0;border-bottom:1px solid var(--line)}ul.pieces.kind{margin-top:4px}
 ul.pieces a{font-family:var(--head);font-weight:600;font-size:17px;text-decoration:none;border-bottom:1px solid var(--under)}ul.pieces a:hover{border-bottom-color:var(--ink)}
 ul.pieces span{display:block;color:var(--muted);font-size:14px;margin-top:3px}
+ul.kin{list-style:none;margin:14px 0 26px;padding:0;max-width:var(--read)}ul.kin li{padding:11px 0;border-bottom:1px solid var(--line);font-size:16px}
+ul.kin b{display:block;font-family:var(--head);font-size:17px;margin-bottom:2px}ul.kin .w{color:var(--muted)}ul.kin .more{display:block;color:var(--muted);font-size:15px;margin-top:3px}
+h2[id],h3[id]{scroll-margin-top:16px}
