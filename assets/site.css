@@ -25,6 +25,9 @@ h1{font-family:var(--head);font-size:clamp(40px,8.00vw,76px);line-height:1.05;ma
 .point b{display:block;font-family:var(--head);font-size:16px;font-weight:600;margin-bottom:4px}
 .point b i{font-style:normal;color:var(--a);margin-right:6px}
 .point p{margin:0;color:var(--muted);font-size:14.5px;line-height:1.5}
+.onward{margin:28px auto 0;max-width:40em;color:var(--muted);font-size:15.5px;line-height:1.7;text-wrap:balance}
+.onward a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--under);overflow-wrap:anywhere}
+.onward a:hover{border-bottom-color:var(--ink)}
 nav.constellation{margin:48px auto 0;max-width:46rem;padding:0 20px;text-align:center}
 nav.constellation h2{font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
 nav.constellation ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;justify-content:center;gap:6px 14px;font-family:ui-monospace,"Cascadia Mono","SFMono-Regular",Consolas,monospace;font-size:13px}
