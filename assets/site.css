@@ -68,6 +68,7 @@ figure.words{margin:26px 0;padding:4px 0 4px 20px;border-left:2px solid var(--a)
 figure.words blockquote{margin:0}
 figure.words p{margin:0 0 .7em}
 figure.words figcaption{color:var(--muted);font-size:14px;margin-top:10px}
+figure.words blockquote p.gap{color:var(--muted);letter-spacing:.3em}
 ol.tracks{margin:10px 0 0;padding:0;list-style:none;max-width:var(--read);counter-reset:t}
 ol.tracks li{display:flex;gap:12px;align-items:baseline;padding:7px 0;border-bottom:1px solid var(--line);font-size:15.5px}
 ol.tracks li::before{counter-increment:t;content:counter(t);color:var(--muted);font-variant-numeric:tabular-nums;min-width:1.6em;text-align:right;font-size:14px}
@@ -100,6 +101,7 @@ nav.constellation.map h2{display:none}
 nav.constellation.map b{font-size:17px}
 nav.constellation.map .w{font-size:15px}
 footer a.sign{border-bottom:1px solid var(--under)}
+.vh{position:absolute;width:1px;height:1px;margin:-1px;padding:0;border:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
 footer{text-align:center;color:var(--muted);font-size:13.5px;padding:18px 20px 30px}
 footer a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--under)}
 footer .sign{font-family:"Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;font-style:italic}
